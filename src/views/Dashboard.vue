@@ -11,7 +11,72 @@
                         rounded="lg"
                         min-height="268"
                     >
-                    xxx
+
+                        <v-card
+                            class="mx-auto"
+                            max-width="344"
+                        >
+                            <v-card-text>
+                                <div>FINAL</div>
+                                <div class="text-caption">Liga de Baseball Clase Abierta</div>
+                                <v-row align="center" no-gutters>
+                                    <v-col
+                                        cols="3"
+                                    >
+                                        <v-avatar
+                                            size="28px"
+                                        >
+                                            <v-img
+                                                alt="Avatar"
+                                                src="https://avatars0.githubusercontent.com/u/9064066?v=4&s=460"
+                                            ></v-img>
+                                        </v-avatar>
+                                    </v-col>
+                                    <v-col cols="6" class="text-h6">
+                                        Texas
+                                    </v-col>
+                                    <v-col cols="3" class="text-right text-h6">
+                                        7
+                                    </v-col>
+                                </v-row>
+
+                                <v-row align="center" no-gutters>
+                                    <v-col
+                                        cols="3"
+                                    >
+                                        <v-avatar
+                                            size="28px"
+                                        >
+                                            <v-img
+                                                alt="Avatar"
+                                                src="https://cdn.vuetifyjs.com/images/lists/4.jpg"
+                                            ></v-img>
+                                        </v-avatar>
+                                    </v-col>
+                                    <v-col cols="6" class="text-h6">
+                                        Tampa Bay
+                                    </v-col>
+                                    <v-col cols="3" class="text-right text-h6">
+                                        1
+                                    </v-col>
+                                </v-row>
+                                <!-- <p>adjective</p>
+                                <div class="text--primary">
+                                    well meaning and kindly.<br>
+                                    "a benevolent smile"
+                                </div> -->
+                            </v-card-text>
+                            <!-- <v-card-actions>
+                                <v-btn
+                                    variant="text"
+                                    color="deep-purple-accent-4"
+                                >
+                                    Learn More
+                                </v-btn>
+                            </v-card-actions> -->
+                        </v-card>
+
+
                     </v-sheet>
                 </v-col>
     

@@ -2,12 +2,12 @@
     <v-app id="inspire">
         <v-app-bar flat>
             <v-container class="fill-height d-flex align-center">
-                <v-avatar>
+                <!-- <v-avatar>
                     <v-img
                         src="https://cdn.vuetifyjs.com/images/john.jpg"
                         alt="John"
                     ></v-img>
-                </v-avatar>
+                </v-avatar> -->
 
                 <v-btn
                     v-for="link in links"
@@ -29,7 +29,7 @@
                         variant="solo"
                     ></v-text-field>
                 </v-responsive> -->
-                <v-btn icon="mdi-dots-vertical"></v-btn>
+                <!-- <v-btn icon="mdi-dots-vertical"></v-btn> -->
 
             </v-container>
         </v-app-bar>
